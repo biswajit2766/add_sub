@@ -1,0 +1,37 @@
+timestamp=1605519031703
+
+[~A]
+LastVerilogToplevel=adder_sub_tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*579*1329
+
+[~MFT]
+0=5|0work.mgf|1329|0
+1=3|1work.mgf|1693|0
+3=6|3work.mgf|3224|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c92168f6c738a3f98c0dced40e6ed8c498091
+
+[adder_sub]
+A/adder_sub=22|../design.sv|4|1*374
+BinL64/adder_sub=3*174
+R=../design.sv|4
+SLP=3*793
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|916a207603b644a57d91e410146223e0afe0f40a19f3007180ac486fe11c069c60880b0b555c35f89bb8c48dd4302047
+
+[adder_sub_tb]
+A/adder_sub_tb=22|../testbench.sv|5|1*1693
+BinL64/adder_sub_tb=3*1121
+R=../testbench.sv|5
+SLP=3*3224
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|1a34def125ed75dbdf3bf7d5229fbdba309aa2c8263c664948c5e9aed3e60f4d18786b5d15f37ee07d73efd2176010a3
+
+[~U]
+$root=12|0*0|
+adder_sub=12|0*182|
+adder_sub_tb=12|0*406||0x10

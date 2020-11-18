@@ -1,0 +1,275 @@
+$date
+Mon Nov 16 04:36:18 2020
+$end
+$version
+Riviera-PRO Version 2020.04.130.7729
+$end
+$timescale
+1 ps
+$end
+
+$scope module adder_sub_tb $end
+$var wire 2 ! o [1:0] $end
+$var wire 1 " c $end
+$var reg 2 # a [1:0] $end
+$var reg 2 $ b [1:0] $end
+$var reg 1 % add_sub $end
+$var time 64 & runtime $end
+
+$scope module UUT $end
+$var wire 2 ' a [1:0] $end
+$var wire 2 ( b [1:0] $end
+$var wire 1 ) add_sub $end
+$var reg 2 * o [1:0] $end
+$var reg 1 + c $end
+$var reg 2 , b_to_add [1:0] $end
+$upscope $end
+
+
+$scope task @FORK#25_0@ $end
+$upscope $end
+
+
+$scope task @FORK#30_1@ $end
+$upscope $end
+
+
+$scope task @FORK#35_2@ $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b1 !
+0"
+b0 #
+b1 $
+0%
+b11001000000 &
+b0 '
+b1 (
+0)
+b1 *
+0+
+b1 ,
+$end
+#50000
+b1 #
+b1 '
+b10 *
+b10 !
+#100000
+b10 #
+b10 '
+b11 *
+b11 !
+#150000
+b11 #
+b11 '
+b0 *
+1+
+1"
+b0 !
+#200000
+b10 $
+b0 #
+b0 '
+b10 (
+b1 *
+0+
+b10 ,
+0"
+b1 !
+b10 *
+b10 !
+#250000
+b1 #
+b1 '
+b11 *
+b11 !
+#300000
+b10 #
+b10 '
+b0 *
+1+
+1"
+b0 !
+#350000
+b11 #
+b11 '
+b1 *
+b1 !
+#400000
+b11 $
+b0 #
+b0 '
+b11 (
+b10 *
+0+
+b11 ,
+0"
+b10 !
+b11 *
+b11 !
+#450000
+b1 #
+b1 '
+b0 *
+1+
+1"
+b0 !
+#500000
+b10 #
+b10 '
+b1 *
+b1 !
+#550000
+b11 #
+b11 '
+b10 *
+b10 !
+#600000
+b0 $
+b0 #
+b0 '
+b0 (
+b11 *
+0+
+b0 ,
+0"
+b11 !
+b0 *
+b0 !
+#650000
+b1 #
+b1 '
+b1 *
+b1 !
+#700000
+b10 #
+b10 '
+b10 *
+b10 !
+#750000
+b11 #
+b11 '
+b11 *
+b11 !
+#800000
+1%
+b1 $
+b0 #
+b0 '
+b1 (
+1)
+b1 *
+b10 ,
+b1 !
+b11 *
+b11 !
+#850000
+b1 #
+b1 '
+b0 *
+1+
+1"
+b0 !
+#900000
+b10 #
+b10 '
+b1 *
+b1 !
+#950000
+b11 #
+b11 '
+b10 *
+b10 !
+#1000000
+b10 $
+b0 #
+b0 '
+b10 (
+b11 *
+0+
+b1 ,
+0"
+b11 !
+b10 *
+b10 !
+#1050000
+b1 #
+b1 '
+b11 *
+b11 !
+#1100000
+b10 #
+b10 '
+b0 *
+1+
+1"
+b0 !
+#1150000
+b11 #
+b11 '
+b1 *
+b1 !
+#1200000
+b11 $
+b0 #
+b0 '
+b11 (
+b10 *
+0+
+b0 ,
+0"
+b10 !
+b1 *
+b1 !
+#1250000
+b1 #
+b1 '
+b10 *
+b10 !
+#1300000
+b10 #
+b10 '
+b11 *
+b11 !
+#1350000
+b11 #
+b11 '
+b0 *
+1+
+1"
+b0 !
+#1400000
+b0 $
+b0 #
+b0 '
+b0 (
+b1 *
+0+
+b11 ,
+0"
+b1 !
+b0 *
+1+
+1"
+b0 !
+#1450000
+b1 #
+b1 '
+b1 *
+b1 !
+#1500000
+b10 #
+b10 '
+b10 *
+b10 !
+#1550000
+b11 #
+b11 '
+b11 *
+b11 !
+#1600000
